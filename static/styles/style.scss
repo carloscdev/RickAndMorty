@@ -1,0 +1,31 @@
+// Fuente Open Sans
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+:root {
+  --color-negro: #161616;
+  --color-morado: #232137;
+  --color-rojo: #cf0a0ae1;
+  --color-verde: #00b427;
+  --color-blanco: #ffffff;
+  --color-celeste: #16b5ce;
+  --color-celeste2: #03a1b9;
+}
+body{
+  font-family: 'Open Sans', sans-serif;
+  background-color: white;
+}
+h2 {
+  font-weight: 700;
+  font-size: 2em;
+  padding: 3em 0;
+}
+h3 {
+  font-weight: 400;
+  font-size: 1.5em;
+  &:hover {
+    color: var(--color-celeste);
+  }
+}
+.contenedor{
+  width: 80%;
+  margin: 0 auto;
+}
