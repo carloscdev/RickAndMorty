@@ -28,7 +28,7 @@
           Tipo: {{(personaje.type) == '' ? 'No definido' : personaje.type}} <br>
           Genero: {{(personaje.gender) == '' ? 'No definido' :personaje.gender}} <br>
           Origen: {{(personaje.origin.name) == '' ? 'No definido' :personaje.origin.name}} <br>
-          Origen: {{(personaje.location.name) == '' ? 'No definido' :personaje.location.name}} 
+          Locación: {{(personaje.location.name) == '' ? 'No definido' :personaje.location.name}} 
           </div>
       </b-card-body>
       <b-card-footer class="fondo">
